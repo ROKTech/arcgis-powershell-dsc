@@ -91,7 +91,6 @@
                         "ContainerName":"[Required - Container Name]",
                         "RootDir": "",
                         "AccountEndpointURL":"[Required - Account Endpoint URL]",
-                        "RegionEndpointURL":"[Optional - Region Endpoint URL]",
                         "Credential":{
                             "Type":"['StorageAccountKey']",
                             "StorageAccountKey":{
@@ -102,7 +101,6 @@
                     },
                     "CosmosDBAccount":{
                         "AccountEndpointURL":"[Required - Table Endpoint URL]",
-                        "RegionEndpointURL":"[Optional - Region Endpoint URL]",
                         "SubscriptionId":"[Required - CosmosDB Account Subscription Id - Optional if using CosmosDBAccountKey]",
                         "ResourceGroupName":"[Required - CosmosDB Account Resource Group Name - Optional if using CosmosDBAccountKey]",
                         "DatabaseId":"[Required - CosmosDB Account Database Id]",
@@ -117,7 +115,6 @@
                     },
                     "ServiceBusNamespace":{
                         "ServiceBusEndpointUrl":"[Required - Service Bus Endpoint URL]",
-                        "RegionEndpointURL":"[Optional - Region Endpoint URL]",
                         "Credential":{
                             "Type":"['ServiceBusNamespaceAccessKey']",
                             "ServiceBusNamespaceAccessKey":{
@@ -147,8 +144,7 @@
                     "AmazonQueueService":{
                         "RegionEndpointURL":""
                     }
-                },
-                "localDirectory": "[Optional - C:\\arcgisserver\\local]"
+                }
             }
         },
         "Portal": {
